@@ -1,0 +1,45 @@
+@import '~office-ui-fabric-react/dist/sass/References.scss';
+
+.location {
+    .container {  
+        width: 100%; 
+        clear: both;
+        display: flex; 
+        flex-flow: column;
+        align-items: stretch;
+        margin: 0px auto;
+    }
+    .head {
+        font-size: 25px;
+        width: 100%; 
+        font-weight: bold; 
+    }
+    .subhead {
+        font-size: 16px;
+        width: 100%; 
+        font-weight: bold; 
+        border-bottom: 1px solid black;
+        margin-bottom: 20px
+    }
+    .location {
+        margin: 5px;
+        display: inline-block;
+        border-bottom: 1px solid #D8D8D8;
+        width: 275px;
+        height: 85px;
+        font-size: 10px;
+    }
+    .image {
+        margin:5px;
+        float: left;
+        width: 75px;
+        height: 75px; 
+    }
+    .header { 
+        font-size: 13px;
+        font-weight: bold;
+    }
+    .data { 
+        font-size: 12px;
+    }
+}

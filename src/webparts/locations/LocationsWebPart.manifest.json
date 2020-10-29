@@ -1,0 +1,23 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "857eda85-16db-4e19-9ae1-45988ade0b64",
+  "alias": "LocationsWebPart",
+  "componentType": "WebPart",
+  "version": "*",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+  "supportedHosts": ["SharePointWebPart"],
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70", 
+    "group": { "default": "Other" },
+    "title": { "default": "Locations SPFx Webpart" },
+    "description": { "default": "Displays a list of locations of SI-CO, Inc" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "title": "Locations SPFx WebPart",
+      "description": "A List of Location for SI-CO, Inc",
+      "siteURL": "<URL OF SITE COLLECTION>",
+      "list": "Name of List to Connect to"
+    }
+  }]
+}

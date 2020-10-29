@@ -1,0 +1,20 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "Locations WebPart",
+    "id": "157d66e2-3bec-4fa5-80a5-d34185b81864",
+    "version": "2020.10.29.1605",
+    "includeClientSideAssets": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "Bryan King",
+      "websiteUrl": "http://bdking71.wordpress.com",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": ""
+    }
+  },
+  "paths": {
+    "zippedPackage": "solution/locations.sppkg"
+  }
+}
